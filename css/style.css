@@ -18,7 +18,7 @@ body {
   border: 2px solid #5b4d4d;
   box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
 
-  width: 99vw;
+  width: 98vw;
   height: 96vh;
 }
 
@@ -36,12 +36,13 @@ body {
 } */
 
 .backgroundImg {
+  display: flex;
   position: absolute;
-  height: 500px;
-  width: 888px;
+  height: 300px;
+  width: 500px;
   box-shadow: 8px 8px 6px rgba(0, 0, 0, 0.3);
   margin-left: 33vw;
-  margin-top: 15vh;
+  margin-top: 20vh;
 }
 
 #blackBox {
@@ -154,7 +155,7 @@ body {
   box-sizing: border-box;
   position: absolute;
   background-color: #fbd5d4;
-  width: 98vw;
+  width: 96vw;
   height: 60px;
   left: 10px;
   right: 10px;
@@ -165,8 +166,8 @@ body {
 #leftBox {
   box-sizing: border-box;
   position: absolute;
-  width: 357px;
-  height: 78vh;
+  width: 300px;
+  height: 68vh;
   left: 35px;
   top: 25px;
   background: #fce3cd;
@@ -178,8 +179,8 @@ body {
 #whiteBox {
   box-sizing: border-box;
   position: absolute;
-  width: 98vw;
-  height: 84vh;
+  width: 96vw;
+  height: 75vh;
   left: 10px;
   top: 107px;
   background: #ffffff;
@@ -190,8 +191,8 @@ body {
   box-sizing: border-box;
 
   position: absolute;
-  width: 330px;
-  height: 130px;
+  width: 280px;
+  height: 50px;
   left: 12px;
   top: 15px;
 
@@ -202,14 +203,14 @@ body {
 
 #greeting {
   position: absolute;
-  margin-top: 45px;
-  margin-left: 70px;
+  margin-top: 8px;
+  margin-left: 50px;
 }
 
 #humanIcon {
-  width: 40px;
-  height: 40px;
-  margin-top: 38px;
+  width: 30px;
+  height: 30px;
+  margin-top: 6px;
   margin-left: 8px;
 }
 
@@ -218,12 +219,12 @@ body {
   white-space: normal;
   word-break: normal;
   width: 230px;
-  height: 100px;
+  height: 30px;
   border: none;
   background-color: transparent;
-  font-size: 21px;
-  top: 10px;
-  right: 35px;
+  font-size: 19px;
+  top: 8px;
+  right: -2px;
 }
 
 input:focus {
@@ -232,16 +233,16 @@ input:focus {
 
 #heartIcon {
   position: absolute;
-  width: 40px;
-  height: 40px;
-  margin-top: 40px;
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
   margin-left: 8px;
 }
 
 .verticalLine {
   box-sizing: border-box;
   position: absolute;
-  width: 30vw;
+  width: 34.5vw;
   height: 0px;
 
   border: 2px solid #5b4d4d;
@@ -249,19 +250,19 @@ input:focus {
 }
 
 #leftLine {
-  left: 150px;
-  top: 400px;
+  left: 11.4vw;
+  top: 37vh;
 }
 
 #quoteContent {
   position: absolute;
-  width: 600px;
+  width: 30vw;
   height: 90px;
-  left: 38vw;
-  top: calc(50% - 90px / 2 + 231px);
+  left: 37vw;
+  top: 53vh;
 
   font-weight: 400;
-  font-size: 24px;
+  font-size: 15px;
   line-height: 24px;
   display: flex;
   align-items: center;
@@ -272,13 +273,12 @@ input:focus {
 
 #quoteAuthor {
   position: absolute;
-  width: 473px;
-  height: 64px;
-  left: calc(50% - 473px / 2 + 180px);
-  top: calc(50% - 64px / 2 + 326px);
-
+  width: 30vw;
+  height: 90px;
+  left: 47vw;
+  top: 64vh;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 20px;
   display: flex;
   align-items: center;
@@ -288,36 +288,36 @@ input:focus {
 }
 
 #rightLine {
-  left: 1600px;
-  top: 400px;
+  right: 6vw;
+  top: 37vh;
 }
 
 #todo-form {
   box-sizing: border-box;
   position: absolute;
-  width: 322px;
-  height: 55px;
-  right: 70px;
-  top: 50px;
+  width: 18vw;
+  height: 7.5vh;
+  right: 15px;
+  top: 30px;
   border: 2px solid #5b4d4d;
 }
 
 #todoFormInput {
   position: fixed;
   border: none;
-  font-size: 17px;
+  font-size: 14px;
   text-align: center;
-  width: 12.25vw;
-  margin-top: 16px;
+  width: 16vw;
+  margin-top: 5px;
 }
 
 #bluebox {
   box-sizing: border-box;
   position: absolute;
-  width: 44px;
-  height: 55px;
-  right: 390px;
-  top: 50px;
+  width: 3vw;
+  height: 7.5vh;
+  right: 19vw;
+  top: 30px;
   background: #bcc7dd;
   border: 2px solid #5b4d4d;
 }
@@ -325,22 +325,21 @@ input:focus {
 #notepad {
   position: absolute;
   background-color: #d1d2dc;
-  width: 14.5vw;
-  height: 60vh;
-  right: 2.5vw;
+  width: 20.7vw;
+  height: 57vh;
+  right: 1.2vw;
   top: 15vh;
   box-shadow: inset 5px 5px 4px rgba(91, 77, 77, 0.25);
 }
 
 #todoTitle {
   position: absolute;
-  width: 285px;
+  width: 20vw;
   height: 54px;
-  right: 1.5vw;
+  right: -4vw;
   top: 15vh;
   font-weight: 200;
-  font-size: 30px;
-  line-height: 20px;
+  font-size: 22px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -351,15 +350,15 @@ input:focus {
 #todo-list {
   display: flexbox;
   position: absolute;
-  width: 285px;
+  width: 18vw;
   height: 5vh;
-  right: 4.2vw;
+  right: 2.2vw;
   top: 19vh;
   line-height: 1vh;
 }
 
 .todoText {
-  font-size: 25px;
+  font-size: 15px;
   line-height: 4vh;
 
   white-space: no-wrap;
@@ -392,10 +391,10 @@ input:focus {
 #weatherBox {
   box-sizing: border-box;
   position: absolute;
-  width: 320px;
-  height: 398px;
+  width: 21.2vw;
+  height: 36vh;
   left: 15px;
-  top: 160px;
+  top: 80px;
   background: #fdfcf8;
   border: 2px solid #5b4d4d;
   border-radius: 13px;
@@ -404,24 +403,25 @@ input:focus {
 #weather {
   box-sizing: border-box;
   position: absolute;
-  left: 4.2vw;
-  top: 8.7vh;
+  left: 7.2vw;
+  top: 6.7vh;
 }
 
 .weatherContent {
   display: flex;
-  font-size: 25px;
-  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 15px;
 }
 
 #todayWeather {
   position: absolute;
-  width: 10vw;
-  left: 2.45vw;
-  top: 2vh;
+  width: 15vw;
+  left: 4.2vw;
+  top: 1vh;
 
   font-weight: 400;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 24px;
   display: flex;
   align-items: center;
@@ -433,61 +433,61 @@ input:focus {
 .weatherImg {
   position: absolute;
   display: flex;
-  width: 30px;
-  height: 30px;
+  width: 15px;
+  height: 15px;
 }
 
 #weatherImgContainer1 {
   position: absolute;
-  width: 40px;
-  height: 40px;
-  margin-top: 80px;
+  width: 20px;
+  height: 20px;
+  margin-top: 40px;
   margin-left: 60px;
 }
 
 #weatherImgContainer2 {
   position: absolute;
-  width: 40px;
-  height: 40px;
-  margin-top: 125px;
+  width: 20px;
+  height: 20px;
+  margin-top: 70px;
   margin-left: 60px;
 }
 #weatherImgContainer3 {
   position: absolute;
-  width: 40px;
-  height: 40px;
-  margin-top: 170px;
+  width: 20px;
+  height: 20px;
+  margin-top: 100px;
   margin-left: 60px;
 }
 #weatherImgContainer4 {
   position: absolute;
-  width: 40px;
-  height: 40px;
-  margin-top: 215px;
+  width: 20px;
+  height: 20px;
+  margin-top: 130px;
   margin-left: 60px;
 }
 #weatherImgContainer5 {
   position: absolute;
-  width: 40px;
-  height: 40px;
-  margin-top: 260px;
+  width: 20px;
+  height: 20px;
+  margin-top: 160px;
   margin-left: 60px;
 }
 #weatherImgContainer6 {
   position: absolute;
-  width: 40px;
-  height: 40px;
-  margin-top: 305px;
+  width: 20px;
+  height: 20px;
+  margin-top: 190px;
   margin-left: 60px;
 }
 
 #clockBox {
   box-sizing: border-box;
   position: absolute;
-  width: 320px;
-  height: 150px;
+  width: 21.2vw;
+  height: 13vh;
   left: 15px;
-  top: 580px;
+  top: 320px;
   background: #fdfcf8;
   border: 2px solid #5b4d4d;
   border-radius: 13px;
@@ -496,8 +496,8 @@ input:focus {
 #clock {
   position: absolute;
   width: 10vw;
-  left: 2.2vw;
-
+  left: 3vw;
+  top: -26px;
   font-size: 50px;
   display: flex;
   align-items: center;
